@@ -6,8 +6,6 @@ const sign = require('jsonwebtoken').sign
 const crypto = require('crypto')
 const queryEncode = require("querystring").encode
 const request = require('request-promise-native')
-const access_key = "phd5U6LRXDGUBkeNcwDJw1JCcDm2mqv6M5fQGExl"
-const secret_key = "aIHYoDFKWB649d7eduBzaoHjROLYV2FLeKlyEWn0"
 const server_url = "https://api.upbit.com"
 
 
